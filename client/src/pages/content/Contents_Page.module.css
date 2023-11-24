@@ -1,0 +1,45 @@
+.body h2{
+    font-weight: lighter;
+}
+
+
+.searchButton {
+    
+    height: 2.5rem;
+    margin: 0.5rem;  
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 8px;
+    cursor:pointer;
+    background-color: rgb(126, 205, 239);
+}
+
+.searchButton:hover {
+    background-color: rgb(41, 157, 206);
+    border-radius: 6px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.searchBox {
+    height: 2.1rem;
+    font: inherit;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 8px;
+    cursor: initial;
+    text-align: center;
+
+}
+
+.container {
+    width: 100%;
+    margin: 1em auto;
+}
+
+.grid {
+    display: grid;
+    flex-wrap: wrap;
+    margin-left: .5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.5em;
+    justify-content: center;
+}
+
